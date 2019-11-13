@@ -10,11 +10,11 @@
     "tools",
   ]
   pruneopts = "UT"
-  revision = "f540824d77dfd382ce84fd0ee0a9da2fba1cce0a"
+  revision = "3c98d95a94d51624a26e99419d0fc03d2aab0055"
 
 [[projects]]
   branch = "master"
-  digest = "1:92dbcb84f9e191d2511dcce1bc008eb6379e57bc358ccc2a36a97a37c3720ef9"
+  digest = "1:f80f875d6fb07a598b92e734ab804f2995faaa5d6e13cb724255fc1376cb5fbf"
   name = "github.com/bitrise-io/go-utils"
   packages = [
     "colorstring",
@@ -25,12 +25,20 @@
     "pathutil",
   ]
   pruneopts = "UT"
-  revision = "ad86bf775472ce1934affb9d3cb7d5ea3dffd16f"
+  revision = "5067a2a682f21030f379f88e853b9e0734a24516"
 
 [[projects]]
   branch = "master"
-  digest = "1:c5ae759861ba37d16c453386e6b5696b2b74ba969e9fdd4962f4f2625ae15c95"
-  name = "github.com/bitrise-io/go-xamarin"
+  digest = "1:400e113a367b511b9b09ca642ee11d9885485a93838526d697033af334a2fdde"
+  name = "github.com/kballard/go-shellquote"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "95032a82bc518f77982ea72343cc1ade730072f0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:2dbdac747ab6b97b28c97bec3d1007aee2e0a283a5f8cf18b1d4a2b8ac907135"
+  name = "github.com/toggl/go-xamarin"
   packages = [
     "analyzers/project",
     "analyzers/solution",
@@ -44,15 +52,7 @@
     "utility",
   ]
   pruneopts = "UT"
-  revision = "b4423590eb839704cbbe1e76e28e86bef4b6227a"
-
-[[projects]]
-  branch = "master"
-  digest = "1:400e113a367b511b9b09ca642ee11d9885485a93838526d697033af334a2fdde"
-  name = "github.com/kballard/go-shellquote"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "95032a82bc518f77982ea72343cc1ade730072f0"
+  revision = "0c638f92e338e29f1def2845796c56103d83dd55"
 
 [solve-meta]
   analyzer-name = "dep"
@@ -62,11 +62,11 @@
     "github.com/bitrise-io/go-steputils/tools",
     "github.com/bitrise-io/go-utils/command",
     "github.com/bitrise-io/go-utils/log",
-    "github.com/bitrise-io/go-xamarin/builder",
-    "github.com/bitrise-io/go-xamarin/constants",
-    "github.com/bitrise-io/go-xamarin/tools",
-    "github.com/bitrise-io/go-xamarin/tools/buildtools",
     "github.com/kballard/go-shellquote",
+    "github.com/toggl/go-xamarin/builder",
+    "github.com/toggl/go-xamarin/constants",
+    "github.com/toggl/go-xamarin/tools",
+    "github.com/toggl/go-xamarin/tools/buildtools",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
