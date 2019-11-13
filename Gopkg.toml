@@ -8,7 +8,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/bitrise-io/go-xamarin"
+  name = "github.com/toggl/go-xamarin"
 
 [[constraint]]
   branch = "master"
