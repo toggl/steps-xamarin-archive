@@ -7,8 +7,8 @@ import (
 
 	"github.com/bitrise-io/go-utils/log"
 	"github.com/bitrise-io/go-utils/pathutil"
-	"github.com/bitrise-io/go-xamarin/constants"
-	"github.com/bitrise-io/go-xamarin/utility"
+	"github.com/toggl/go-xamarin/constants"
+	"github.com/toggl/go-xamarin/utility"
 )
 
 // ConfigurationPlatformModel ...

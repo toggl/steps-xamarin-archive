@@ -11,11 +11,11 @@ import (
 	steputiltools "github.com/bitrise-io/go-steputils/tools"
 	"github.com/bitrise-io/go-utils/command"
 	"github.com/bitrise-io/go-utils/log"
-	"github.com/bitrise-io/go-xamarin/builder"
-	"github.com/bitrise-io/go-xamarin/constants"
-	"github.com/bitrise-io/go-xamarin/tools"
-	"github.com/bitrise-io/go-xamarin/tools/buildtools"
 	"github.com/kballard/go-shellquote"
+	"github.com/toggl/go-xamarin/builder"
+	"github.com/toggl/go-xamarin/constants"
+	"github.com/toggl/go-xamarin/tools"
+	"github.com/toggl/go-xamarin/tools/buildtools"
 )
 
 // ConfigsModel ...

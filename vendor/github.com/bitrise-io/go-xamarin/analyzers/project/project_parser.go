@@ -9,8 +9,8 @@ import (
 
 	"github.com/bitrise-io/go-utils/fileutil"
 	"github.com/bitrise-io/go-utils/log"
-	"github.com/bitrise-io/go-xamarin/constants"
-	"github.com/bitrise-io/go-xamarin/utility"
+	"github.com/toggl/go-xamarin/constants"
+	"github.com/toggl/go-xamarin/utility"
 )
 
 // Project is the struct for the csproj file.

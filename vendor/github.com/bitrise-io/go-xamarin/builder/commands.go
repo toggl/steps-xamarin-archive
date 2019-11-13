@@ -3,14 +3,14 @@ package builder
 import (
 	"fmt"
 
-	"github.com/bitrise-io/go-xamarin/analyzers/project"
-	"github.com/bitrise-io/go-xamarin/constants"
-	"github.com/bitrise-io/go-xamarin/tools"
-	"github.com/bitrise-io/go-xamarin/tools/buildtools"
-	"github.com/bitrise-io/go-xamarin/tools/buildtools/msbuild"
-	"github.com/bitrise-io/go-xamarin/tools/buildtools/xbuild"
-	"github.com/bitrise-io/go-xamarin/tools/nunit"
-	"github.com/bitrise-io/go-xamarin/utility"
+	"github.com/toggl/go-xamarin/analyzers/project"
+	"github.com/toggl/go-xamarin/constants"
+	"github.com/toggl/go-xamarin/tools"
+	"github.com/toggl/go-xamarin/tools/buildtools"
+	"github.com/toggl/go-xamarin/tools/buildtools/msbuild"
+	"github.com/toggl/go-xamarin/tools/buildtools/xbuild"
+	"github.com/toggl/go-xamarin/tools/nunit"
+	"github.com/toggl/go-xamarin/utility"
 )
 
 func (builder Model) buildSolutionCommand(configuration, platform string) (tools.Runnable, error) {

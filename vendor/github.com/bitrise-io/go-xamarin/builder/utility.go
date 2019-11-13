@@ -8,9 +8,9 @@ import (
 
 	"github.com/bitrise-io/go-utils/fileutil"
 	"github.com/bitrise-io/go-utils/pathutil"
-	"github.com/bitrise-io/go-xamarin/analyzers/solution"
-	"github.com/bitrise-io/go-xamarin/constants"
-	"github.com/bitrise-io/go-xamarin/utility"
+	"github.com/toggl/go-xamarin/analyzers/solution"
+	"github.com/toggl/go-xamarin/constants"
+	"github.com/toggl/go-xamarin/utility"
 )
 
 func validateSolutionPth(pth string) error {

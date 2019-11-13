@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/bitrise-io/go-utils/pathutil"
-	"github.com/bitrise-io/go-xamarin/constants"
-	"github.com/bitrise-io/go-xamarin/tools/buildtools/xbuild"
+	"github.com/toggl/go-xamarin/constants"
+	"github.com/toggl/go-xamarin/tools/buildtools/xbuild"
 )
 
 // New ...
