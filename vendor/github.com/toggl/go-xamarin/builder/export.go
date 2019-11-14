@@ -180,7 +180,9 @@ func exportLatestXCArchiveFromXcodeArchives(assemblyName string, startTime, endT
 func exportAppDSYM(outputDir, assemblyName string, startTime, endTime time.Time) (string, error) {
 	return findArtifact(outputDir, startTime, endTime, false,
 		fmt.Sprintf(`(?i).*%s.*\.app\.dSYM$`, assemblyName),
+		fmt.Sprintf(`(?i).*%s.*\.appex\.dSYM$`, assemblyName),
 		`(?i).*\.app\.dSYM$`,
+		`(?i).*\.appex\.dSYM$`,
 	)
 }
 

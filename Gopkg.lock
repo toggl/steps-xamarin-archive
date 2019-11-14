@@ -37,7 +37,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:71d5b3188028c257d63554e58ceb0bc6f03a76bc078ddf76527429d5187b8c2a"
+  digest = "1:1a2b7713be3592f5eb32ac232ce1dd82a402dc2e3536b1b29b4562ddd905dcdb"
   name = "github.com/toggl/go-xamarin"
   packages = [
     "analyzers/project",
@@ -52,7 +52,7 @@
     "utility",
   ]
   pruneopts = "UT"
-  revision = "acf577ac9f5daeadf857140f59624ffe280cca68"
+  revision = "e822626d593623e42cded7b813aba999f1a62ee3"
 
 [solve-meta]
   analyzer-name = "dep"
